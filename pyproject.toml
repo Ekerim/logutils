@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logutils"
+version = "0.1.0"
+description = "Python logging utilities for creating and managing loggers with advanced configuration options, multiple handlers, and custom filters."
+authors = [
+    { name = "Fredrik Larsson", email = "ekerim@gmail.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Operating System :: OS Independent"
+]
